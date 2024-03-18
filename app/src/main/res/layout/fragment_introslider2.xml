@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroSlider1Fragment"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/pageIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+
+            android:fontFamily="sans-serif-black"
+            android:text="2/3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/introImage"
+            android:layout_width="320dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="60dp"
+            android:scaleType="fitCenter"
+            android:contentDescription=""
+            android:src="@drawable/intro2_image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0."
+            android:lineSpacingExtra="8dp"
+            android:text="@string/intro_slider2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

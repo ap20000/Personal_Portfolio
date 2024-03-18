@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="First_Name">Personal Portfolio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_hello">Hello, my name is</string>
+    <string name="study">BSc(Hons) Computing  </string>
+    <string name="Home_name">Abhishek Patel</string>
+    <string name="Explore">Explore</string>
+    <string name="gender">Male</string>
+    <string name="work">Student</string>
+    <string name="number">9821805722</string>
+    <string name="Gmail">abishekpatel46@gmail.com</string>
+    <string name="email_subject"></string>
+    <string name="gmail_address"></string>
+    <string name="button">Start</string>
+    <string name="button1">Next</string>
+    <string name="Skill1Heading">Programming</string>
+    <string name="Skill2Heading">Soft Skill</string>
+    <string name="Skill3Heading">Other Skill</string>
+    <string name="Skill1Python">Python</string>
+    <string name="Skill1PythonExp">Beginneer</string>
+    <string name="Skill1Java">Java</string>
+    <string name="Skill1JavaExp">Beginneer</string>
+    <string name="Skill1Android">Android</string>
+    <string name="Skill1AndroidExp">Beginneer</string>
+    <string name="Skill2html">Html</string>
+    <string name="Skill2HtmlDes">intermediate</string>
+    <string name="Skill2Figma">Figma</string>
+    <string name="Skill2FigmaDes">intermediate</string>
+    <string name="Skill2Ui">UI/UX</string>
+    <string name="Skill2UiDes">intermediate</string>
+    <string name="Skill3Communicate">Communicate</string>
+    <string name="Skill3CommunicateDes">intermediate</string>
+    <string name="Skill3Problem">Problem Analysis</string>
+    <string name="Skill3ProblemDes">Beginneer</string>
+    <string name="Skill3flexibility">flexibility</string>
+    <string name="Skill3flexibilityDes">intermediate</string>
+
+
+    <string name="address">Kathmandu</string>
+    <string name="welcome_message">Hello,I am Abhishek Patel, welcome to my portfolio website. Explore my work and skill, and learn about me on this portfolio, and free to get in touch with the contact. Thank you for visiting!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="intro_slider1">Welcome to my personal portfolio. This app designed for showing my personal bio data, skill and hobbies.  </string>
+
+    <string name="intro_slider2">This portfolio contains as Home screen where to show a my profile as well as profile screen and contact. </string>
+    <string name="intro_slider3">This app helps to people with similar skill to connect and share experiences.  </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="Skill_photography">PhotoGraphy</string>
+    <string name="Skill_photography_desc">I like to taking picture because its tell me stories  each photo. its more than a hobby for me. Its a way to show myself and express stories happening. </string>
+    <string name="Skill_traveling">Tarvelling</string>
+    <string name="Skill_traveling_desc">I like traveling. its way to see new cultures,try new food and taking picture. Its fills my life with amazing moments and make to see world in a new way. It adds colourful view to my life.</string>
+    <string name="Skill_cricket">Cricket</string>
+    <string name="Skill_cricket_desc">Cricket is my favourite past time sport. It helps to  feel me stronger, healthier and fit. </string>
+</resources>

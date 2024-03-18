@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/topNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Skill"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="20dp"
+                android:text="@string/Skill1Heading"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/python" />
+
+                            <!-- Additional content in the grid item -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1Python"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1PythonExp"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/java" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1Java"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1JavaExp"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Third MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+                        <!-- Nested LinearLayout for additional content in the grid item -->
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/android" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1Android"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill1AndroidExp"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </GridLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Skill2Heading"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                android:paddingStart="25dp"
+                android:paddingEnd="20dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3">
+
+                    <!-- First MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/html" />
+
+                            <!-- Additional content in the grid item -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2html"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2HtmlDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Second MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/figma" />
+
+                            <!-- Additional content in the grid item -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2Figma"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2FigmaDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Third MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/ui" />
+
+                            <!-- Additional content in the grid item -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2Ui"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill2UiDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </GridLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Skill3Heading"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3">
+
+                    <!-- First MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/problem_image" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="15dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="15dp"
+                                android:text="@string/Skill3Problem"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="19sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill3ProblemDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Second MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/communicate_image" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill3Communicate"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="19sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill3CommunicateDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Third MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="50dp">
+
+                        <!-- Nested LinearLayout for additional content in the grid item -->
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="237dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/flexibility" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill3flexibility"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceHeadline6"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:paddingStart="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="20dp"
+                                android:text="@string/Skill3flexibilityDes"
+                                android:textAlignment="viewStart"
+                                android:textAppearance="?attr/textAppearanceBody2"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Repeat the above MaterialCardView for each grid item -->
+                </GridLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<!-- res/layout/activity_intro_slider.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroSliderActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IntroSliderActivity"/>
+
+
+    <Button
+        android:id="@+id/BtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="12dp"
+
+        android:text="Next"
+
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="@color/black"
+        />
+
+
+
+
+
+
+</RelativeLayout>

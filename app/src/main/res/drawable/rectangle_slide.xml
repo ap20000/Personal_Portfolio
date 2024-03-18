@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rectangle shape -->
+
+     <corners android:radius="10dp" /> <!-- Set the corner radius as needed -->
+
+
+    <stroke
+        android:color="#000000"
+        android:width="1dp" /> <!-- Set the border width as needed -->
+
+</shape>

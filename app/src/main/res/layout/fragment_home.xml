@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/home_back"
+        android:layout_marginTop="55dp">
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragment_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/NavTopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Home"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Home_card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+
+
+            >
+            <ImageView
+                android:id="@id/image"
+                android:layout_width="240dp"
+                android:layout_height="150dp"
+                android:layout_gravity="top|center"
+
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:scaleType="centerInside"
+
+                android:src="@drawable/image" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Home_card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+
+
+            >
+
+            <TextView
+                android:id="@+id/Desc_Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="0."
+                android:lineSpacingExtra="10dp"
+                android:padding="20dp"
+                android:text="@string/welcome_message"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:id="@+id/Social_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingTop="30dp"
+            android:gravity="center">
+
+            <!-- Facebook Icon -->
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/facebook_icon"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                 />
+
+            <!-- Instagram Icon -->
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/instagram_icon"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                 />
+
+            <!-- LinkedIn Icon -->
+            <ImageView
+                android:id="@+id/linkedin"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/linkedin_icon"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                 />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Social_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+
+            android:paddingTop="700dp"
+            android:src="@drawable/share_icon" />
+
+    </LinearLayout>
+
+</FrameLayout>
